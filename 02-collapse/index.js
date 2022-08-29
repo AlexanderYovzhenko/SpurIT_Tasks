@@ -55,7 +55,7 @@ button.addEventListener('click', () => {
       button.disabled = false;
       content.style.opacity = 0;
     }, 900)
-  } else if (content.style.opacity === '0') {
+  } else {
     content.animate(
       contentAnimation,
       collapsibleOption
@@ -78,5 +78,5 @@ button.addEventListener('click', () => {
       button.disabled = false;
       content.style.opacity = 1;
     }, 900)
-  }
+  };
 });
