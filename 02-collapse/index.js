@@ -1,3 +1,4 @@
+// Проверенно(работает корректно) в следующих браузерах: Chrome, Firefox, Opera, Edge
 const collapsible = document.querySelector('.collapsible');
 const button = document.querySelector('.collapsible__button');
 const visible = document.querySelector('.collapsible__action--visible');
